@@ -1,0 +1,115 @@
+header{
+    background-color: #f5dba5;
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    background: none;
+}
+.head1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gamja Flower', cursive;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 25px;
+}
+.Tmenu {
+    text-align: center;
+    padding: 20px 200px;
+}
+.Tm {
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 700;
+    padding: 0px 20px ;
+}
+.log{
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 700;
+    padding: 0px 20px ;
+}
+.nRight {
+    display: flex;
+    justify-content: flex-end;
+}
+.Ftitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 400;
+}
+.text {
+    font-size: 20px;
+    font-weight: 800;   
+}
+.sale {
+    font-size: 15px;
+    font-weight: 800;  
+    color: red;
+}
+.goods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.image {
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 60px;
+    transition: transform 0.3s ease;
+}
+.image:hover {
+    transform: scale(1.2); /* 확대 효과 */
+}
+.fruit {
+    padding: 20px;
+}
+.fruitA-2, .fruitB-2{
+    display: flex;
+    flex-direction: row;;
+}
+.orderT {
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 400;
+}
+
+.table1 {
+    position: relative;
+    left: 200px;
+    margin-bottom: 70px;
+}
+.table2 {
+    position: relative;
+    left: 200px;
+    margin-bottom: 70px;
+}
+td {
+    padding: 10px; /* 셀 안의 내용과 경계 사이의 간격 설정 */
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    border-bottom: 1px solid gray;
+}
+
+input[type="submit"] {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #f3e4c5;
+    border-radius: 10px; 
+}
+footer {
+    margin-top: 50px;
+    width: 100%;
+    bottom: 0%;
+}
